@@ -1,0 +1,8 @@
+This implementation uses a heuristic vertical split to differentiate front and rear plates 
+based on the provided image layout. While effective for this controlled scenario, 
+the approach is not invariant to plate position. In a real-world system, plate localisation 
+should be performed first using edge detection and contour filtering, after which Fourier and 
+DCT analysis can be applied to each detected plate region independently.
+
+---
+
